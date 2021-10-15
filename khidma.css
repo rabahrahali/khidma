@@ -1,1 +1,47 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+ color: aliceblue;
+ background-color: black;
+}
+h3{
+    height: 28px;
+    width: 50px;
+    background-color: greenyellow;
+    color: black;
+    display: flex;
+    justify-content : center;
+    border-radius: 10%;
+    animation-name: h3;
+    animation-duration : 10s ;
+    position: absolute;
+}
+.vert1 {
+    writing-mode: vertical-lr;
+    width: 5%;
+    height: 100%;
+    float: left;
+    font-size:0.6cm;
+    position: fixed;
+    cursor : pointer;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.back1
+{
+    width: 90%;
+    height: 20cm;
+}
+.title{
+    margin-left: 1.5cm;
+    color: rgba(238, 11, 11, 0.884);
+    font-family:'Times New Roman', Times,sans-serif ;
+    font-size: 1cm;
+}
+.back1 h2{
+    margin-left: 2cm;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5cm;
+}
