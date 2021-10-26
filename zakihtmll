@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="design/LOGO.png" type="image/x-icon">
+    <title>Khidma</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="page1">
+            <div class="navbar">
+                <div class="left">
+                    <div class="logo">
+                        <a href="khidma.html" class="z"><img src="design/LOGO.png" alt=""></a>
+                    </div>
+               </div>
+
+                <div class="right">
+                    <a href="">About us</a>
+                </div>
+            </div>
+            <div class="frame13">
+                <div class="frame9">
+                    <p class="say"><a href="">Say hello via email</a></p>
+                </div>
+                <div class="frame12">
+                    <div class="brand">
+                        <p>We help brands through </p>
+                        <p>digital experiences</p>
+                    </div>
+                </div>
+                <div class="frame11">
+                    <p class="chat"><a href="" class="lieninsta">Chat our instagram</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="page2">
+            <div class="desc">
+                <p></p> KHIDMA is a full-services
+                digital solution
+                partner founded in 2021, with a</p>
+                <p> team
+                    of 5+ people and presence across the cities.</p>
+                <p> With a varied background of a team
+                    members, we collaborate and</p>
+                <p> complete
+                    each other in fulfilling each one of
+                    your digital transformation needs.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
