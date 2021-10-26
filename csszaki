@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 90%; 
+}
+
+.page1{
+    height: 100vh;
+}
+
+.navbar{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    height: 93px;
+}
+
+.left{
+    flex: 1;
+}
+
+.logo{
+    border: 1px solid rgb(255, 255, 255);
+    width: 43px;
+    height: 48.24px;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+.z{
+    border: 1px solid rgb(255, 255, 255);
+    position: fixed;
+}
+
+.logo img{
+    width: 43px;
+    height: 48.24px;
+}
+
+.right{
+    flex: 1;
+}
+
+
+
+/*/////////////////////////////////////  contentpage1*/
+
+.frame13{
+    display: flex;
+    position: relative;
+}
+
+.frame13 a{
+    text-decoration: none;
+    color: #A0A0A0;
+}
+
+.frame9{
+    width: 151px;
+    height: 521px;
+}
+
+.say{
+    width: 42px;
+    height: 308px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-top: 156px;
+    margin-left: 29px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #BFBFBF;
+    position: fixed;
+}
+.say :hover{
+    text-shadow: 0px 0px 10px white;
+}
+
+.frame12{
+    width: 978px;
+    height: 521px;
+}
+
+.brand{
+    width: 945px;
+    height: 342px;
+    margin-top: 43px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 93px;
+    line-height: 109px;
+    color: #A0A0A0;
+}
+
+.frame11{
+    width: 147px;
+    height: 521px;
+}
+
+.chat{
+    width: 42px;
+    height: 316px;
+    writing-mode: vertical-lr;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    margin-left: 78px;
+    margin-top: 148px;
+    color: #BFBFBF;
+    position: fixed;
+}
+
+.chat :hover{
+    text-shadow: 0px 0px 10px white;
+}
+
+/*///////////////page2/////////////////*/
+
+.page2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc{
+    height: 244px;
+    width: 1000px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 50px;
+    color: #A0A0A0;
+}
+
+/*//////////////////page3////////////////////*/
+
