@@ -1,11 +1,11 @@
 /*hello world*/
-function backGround1() {
-    var x = document.getElementById('body');
+function back2(){
+    
+    document.getElementById('body').style.background="rgba(0, 0, 0, 0.9)";
+    document.getElementById('body').style.transition="all 0.5s";}
+function back3(){
 
-    x.style.color = 'blue';
+  document.getElementById('body').style.backgroundColor="blue";
 }
 
-function backGround0() {
-    var x = document.getElementById('body');
-    x.style.color = 'black';
-}
+
