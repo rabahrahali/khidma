@@ -1,11 +1,22 @@
 /*hello world*/
-function back2(){
-    
-    document.getElementById('body').style.background="rgba(0, 0, 0, 0.9)";
-    document.getElementById('body').style.transition="all 0.5s";}
-function back3(){
 
-  document.getElementById('body').style.backgroundColor="blue";
+window.onscroll = function (){
+  if ( document.documentElement.scrollTop > 0 && document.documentElement.scrollTop < 1000){
+    document.body.style.backgroundColor="black";
+    document.body.style.transition="all 0.5s";
+  }
+if ( document.documentElement.scrollTop > 1000 && document.documentElement.scrollTop < 1500){
+  document.body.style.backgroundColor="blue";
+  document.body.style.transition="all 0.5s";
+}
+if ( document.documentElement.scrollTop > 1500 && document.documentElement.scrollTop < 2000){
+  document.body.style.backgroundColor="green";
+  document.body.style.transition="all 0.5s";
+}
+if ( document.documentElement.scrollTop > 2000 && document.documentElement.scrollTop < 2500){
+  document.body.style.backgroundColor="red";
+  document.body.style.transition="all 0.5s";
+}
 }
 
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <img src="khidma-logo.png" alt="logo" id="logo">
+    <a href="index.html" id="home">home</a>
+    <div id="ab">
+    <a href="" id="about">about us</a >
+    </div>
+    <a href="" id="insta">Chat Our Instagram</a>
+    <a href="" id="email">Say Hello Via Email</a>
+    <p id="text">&emsp;&emsp;&emsp;KHIDMA<br>
+        Professional Credibility Quality<br>&emsp;&emsp;always for the best</p>
+    <p id="welcome">Welcome  back! Please login to your account.</p>
+    
+    <form action="index.html" name="signIn" onsubmit="return check()">
+        <div id="input-icons">
+            <i class="fa fa-envelope"id="icone">
+                
+          </i>
+            <input id="input-fieldE" 
+                   type="email"
+                   placeholder="Email" value="" required>
+        </div>
+
+        <div id="input-icons">
+            <i class="fa fa-lock " id="icon"></i>
+          <i class="fa fa-eye" id="icons" onclick="view()" aria-checked="false"></i>
+            <input name="input-fieldP"  id="input-fieldP" 
+                   type="password"
+                   placeholder="Password" value="" required>
+        </div>
+    <input type="checkbox"  id="remeber">
+    <p id="rm">remeber me</p>
+    <a href="" id="fp">forgot password</a>
+    <input type="submit" value="Sign In" id="sign">
+</form>
+</body>
+</html>

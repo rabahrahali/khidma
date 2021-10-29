@@ -1,0 +1,276 @@
+body{
+    background: rgba(0, 0, 0, 0.9);
+}
+#logo{
+    position: fixed;
+width: 43px;
+height: 48.24px;
+margin-left: 30px;
+margin-top: 13px;
+
+background: url('khidma-logo.png');
+}
+#home{
+    position: absolute;
+width: 120px;
+height: 37px;
+margin-left: 880px;
+margin-top: 15px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 34px;
+text-decoration: none;
+
+color: #FFFFFF;
+}
+#email{
+    position: fixed;
+    width: 350px;
+    height: 10px;
+    margin-left: -150px;
+    margin-top: 400px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    
+    text-decoration: none;
+    
+    color: #BFBFBF;
+    
+    transform: rotate(-90deg);
+    }
+#insta{
+position: fixed;
+width: 350px;
+height: 42px;
+margin-left: 1120px;
+margin-top: 450px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-decoration: none;
+
+color: #BFBFBF;
+
+transform: rotate(90deg);
+}
+#ab{
+position: absolute;
+width: 165px;
+height: 50px;
+margin-left: 1079px;
+margin-top: 10px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 23px;
+}
+#about{
+position: absolute;
+width: 123px;
+height: 37px;
+padding-left: 21px;
+margin-top: 5px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 34px;
+text-decoration: none;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+/* Artificial Intelligence Driving Results For The Travel Industry */
+#text{
+position: absolute;
+width: 538px;
+height: 157px;
+margin-left: 435px;
+margin-top: 90px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+
+color: #3751FE;
+}
+#welcome{
+    /* Welcome back! Please login to your account. */
+
+position: absolute;
+width: 362px;
+height: 21px;
+left: 491px;
+top: 270px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: rgba(255, 255, 255, 0.6);
+
+
+}
+
+
+
+#input-icons{
+    width: 100%;
+}
+#input-icons i {
+    position: absolute;
+}
+
+#icone{
+    padding: 10px;
+    text-align: center;
+    color: #3751FE;
+    margin-top: 344px;
+    margin-left: 564px;
+    
+}
+#icon{
+    padding: 10px;
+    text-align: center;
+    color: #3751FE;
+    margin-top: 24px;
+    margin-left: 564px;
+    
+}
+#icons{
+    padding: 10px;
+    text-align: center;
+    color: #3751FE;
+    margin-top: 24px;
+    margin-left: 735px;
+    cursor: pointer;
+    
+}
+::placeholder{
+    opacity: 0.6;
+    color: #3751FE;
+    font-size: 13px;
+}
+/* Rectangle 1 */
+#input-fieldE{
+
+width: 165px;
+height: 40px;
+margin-left: 558px;
+margin-top: 340px;
+padding-left: 50px;
+
+
+border: 1px solid #C1BBBB;
+border-radius: 15px;
+}
+
+
+
+/* Rectangle 2 */
+#input-fieldP{
+
+width: 165px;
+height: 40px;
+margin-left: 558px;
+margin-top: 20px;
+padding-left: 50px;
+
+border: 1px solid #C1BBBB;
+border-radius: 15px;
+
+}
+/* Password */
+
+
+
+#remeber{
+/* Rectangle 3 */
+
+position: absolute;
+width: 13px;
+height: 13px;
+left: 469px;
+top: 491px;
+
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+cursor: pointer;
+
+}
+#rm{
+/* Remember Me */
+
+position: absolute;
+width: 118px;
+height: 21px;
+left: 495px;
+top: 470px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: rgba(255, 255, 255, 0.61);
+
+
+}
+#fp{
+/* Forgot Password? */
+
+position: absolute;
+width: 118px;
+height: 21px;
+left: 725px;
+top: 488px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-decoration: none;
+/* identical to box height */
+
+color: rgba(255, 255, 255, 0.61);
+
+
+}
+#sign{
+/* Rectangle 5 */
+
+position: absolute;
+width: 100px;
+height: 40px;
+left: 610px;
+top: 520px;
+
+background: #FFFFFF;
+border: 1px solid #3751FE;
+border-radius: 20px;
+color: #3751FE;
+font-size: 18px;
+cursor: pointer;
+}
+#sign:hover {
+background: #3751FE;
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+}
